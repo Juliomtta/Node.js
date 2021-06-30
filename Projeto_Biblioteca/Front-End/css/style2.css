@@ -1,0 +1,50 @@
+.containerIndex{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.containerIndex h2{
+    background-color: rgb(59, 59, 59) ;
+    color: #fff;
+    padding: 4px;
+}
+form {
+    display: block;
+    justify-content: center;
+}
+form input{
+    display: block;
+    margin-bottom:10px;
+    width: 200px;
+}
+
+form button{
+    width: 100%;
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+    padding: 5px;
+    border:1px solid;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+.containerIndex a{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* ------------- Alerta -----------*/
+.alert{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+}
+.erro{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.success{
+    color: green;
+    border-bottom: 1px solid green;
+}

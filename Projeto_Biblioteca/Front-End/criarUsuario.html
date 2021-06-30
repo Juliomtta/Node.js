@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Livros - Cadastro</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style2.css">
+        <link href="fontawesome/css/all.css" rel="stylesheet">
+        <script src="js/callAPI.js"></script>
+        <script src="js/cadastro.js"></script>
+        
+    </head>
+        
+    <body>
+        <section class="container">
+            <header>
+                <h2><a href="index.html"><i class="fas fa-book-open"></i>MinhaBiblioteca</a></h2>
+            </header>
+            <div class="alert" id="alert">
+
+            </div>
+            <div class="containerIndex">
+                <div>
+                    <div>
+                        <h2>Criar Conta</h2>
+                    </div>
+                <form>
+                    <input type="text" placeholder="Usuário" id="username" required>
+                    <input type="password" placeholder="Senha" id="password" required>
+                    <input type="password" placeholder="Confirmar senha" id="confirmPassword" required>
+                    <button onclick="cadastrar()">Cadastrar</button>
+                    
+                    
+                </form>
+                
+                </div>
+            </div>
+            
+        </section>
+    </body>
+</html>
